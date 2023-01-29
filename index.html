@@ -4,16 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Portfolio</title>
     <link type="text/css" rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header class="header countainer">
+    <header class="header ">
+      <div class="container">
       <nav class="header__nav">
         <a class="header__nav-link" href="#">
           <p class="header_portfolio">Portfolio</p>
         </a>
-        <ul class="header__nav-list active">
+        <ul class="header__nav-list active menu__scroll">
           <li class="header_nav_item">
             <a class="header__nav-link" href="#"> Home</a>
           </li>
@@ -30,89 +31,92 @@
             <a class="header__nav-link" href="#"> Contact </a>
           </li>
         </ul>
-        <button class="menu" href="#">Menu</button>
+        <button class="menu menu__active button__active" href="#"></button>
       </nav>
+    </div>
     </header>
     <section class="hero">
-      <div class="countainer">
-        <h1 class="hero_title">Hello, It’s Damn Daniel</h1>
-        <p class="hero_subtitle">End developer from IKIDZ, Vinnitza</p>
+      <div class="container">
+        <h1 class="hero_title">Hello, I`m Daniel</h1>
+        <p class="hero_subtitle">
+          I am a Front End developer from IKIDZ, Vinnitza
+        </p>
         <a class="hero_link" href="#">Latest works</a>
       </div>
     </section>
     <section class="about">
-      <div class="countainer">
+      <div class="container">
         <h3 class="title">About</h3>
         <p class="text__about">
-          Мене звати Даня я живу в Україні в місті Вінниця. В мене є хобі це IT
-          . На IT я вчуся програмувати, створювати свої сайти, стилізувати їх та
+          Мене звати Данеіл Кібіч я живу в Україні. В мене є хобі це IT.
+          На IT я вчуся програмувати, створювати свої сайти, стилізувати їх та
           інше.
         </p>
         <p class="text__about">
-          Я вже розповів про мої хоббі але тепер настав часрозказати про моє
-          пвсякденне життя. Зранку у мене школа. Доречі я вчуся зараз у 6 класі
-          і переходжу цього року у 69 клас. Я навчаюсь: Біології Математики Укр
-          Мови Англ мови Укр літ Зарубіжна літ та ще багато. Я не відмінник але
-          й не двієшник. Я часто люблю пограти у комп'ютерні ігри після школи
-          але саша не хоче з мною грати.
+          Я вже розповів про мої хоббі але тепер настав час розказати про моє
+          пвсякденне життя. Зранку у мене школа. Доречі я вчуся зараз у 8 класі
+          і переходжу цього року у 9 клас. Я навчаюсь: Біології Математики Укр
+          Мови Англ мови Укр літ Зарубіжна літ та ще багато. Я не відмінник. Я часто люблю пограти у комп'ютерні ігри після школи
+          але Саша (мій товариш) не хоче з мною грати.
         </p>
       </div>
     </section>
-    <!--
+
     <section class="skills">
-        <div class="countainer">
-          <h3 class="title">Skills</h3>
-          <div class="skills-content">
-            <div class="image-container">
-              <img src="./images/Profile Picture.jpg" alt="photo" />
+      <div class="container">
+        <h3 class="title">Skills</h3>
+        <div class="skills-content">
+          <div class="image-container">
+            <img src="./images/Profile Picture.jpg" alt="photo" />
+          </div>
+          <div class="skills-text">
+            <div class="skills-summary">
+              <h5 class="skills-title">Profile</h5>
+              <p>UI / UX Engineer, Front-end Developer</p>
             </div>
-            <div class="skills-text">
-              <div class="skills-summary">
-                <h5 class="skills-title">Profile</h5>
-                <p>UI / UX Engineer, Front-end Developer</p>
+            <div class="skills-summary">
+              <h5 class="skills-title">UX Research</h5>
+              <div class="progress-bar">
+                <div class="loaded loaded"></div>
+                <div class="unloaded unloaded"></div>
               </div>
-              <div class="skills-summary"> 
-                <h5 class=" skills-title">UX Research</h5>
-                <div class="progress-bar">
-                  <div class="loaded loaded"></div>
-                  <div class="unloaded unloaded"></div>
-                </div>
-              </div>
-                <div class="skills-summary">
-                  <h5 class="skills-title">Tools</h5>
-                  <p>Paper,Pen,Balsamiq</p>
-                </div>
-              <div class="skills-summary">
+              <p class="skills__hidden">89% done/ 11% in progress</p>
+            </div>
+            <div class="skills-summary">
+              <h5 class="skills-title">Tools</h5>
+              <p>Paper,Pen,Balsamiq</p>
+            </div>
+            <div class="skills-summary">
               <h5 class="skills-title">UI Disign</h5>
               <div class="progress-bar">
                 <div class="loaded loaded-content"></div>
                 <div class="unloaded unloaded-content"></div>
               </div>
-              </div>
-              <div class="skills-summary">
-                <h5 class="skills-title">Tools</h5>
-                <p>Adobe PS, AI, XD, Figma, InVision</p>
-              </div>
-            <div class="skills-summary">
-            <h5 class="skills-title">Front-end Dev</h5>
-            <div class="progress-bar">
-              <div class="loaded loaded-disign"></div>
-              <div class="unloaded unloaded-disign"></div>
+              <p class="skills__hidden">74% done/ 26% in progress</p>
             </div>
-   
+            <div class="skills-summary">
+              <h5 class="skills-title">Tools</h5>
+              <p>Adobe PS, AI, XD, Figma, InVision</p>
+            </div>
+            <div class="skills-summary">
+              <h5 class="skills-title">Front-end Dev</h5>
+              <div class="progress-bar">
+                <div class="loaded loaded-disign"></div>
+                <div class="unloaded unloaded-disign"></div>
+              </div>
+              <p class="skills__hidden">63% done/ 37% in progress</p>
             </div>
             <div class="skills-summary">
               <h5 class="skills-title">Tools</h5>
               <p>HTML, CSS, JS, Bootstrap, React</p>
             </div>
-            </div>
- 
-            </div>  
+          </div>
         </div>
-
-      </section>
+      </div>
+    </section>
+    
       <section class="portfolio">
-        <div class="countainer">
+        <div class="container">
           <h3 class="title">Portfolio</h3>
           <div class="portfolio-content">
             <div class="portfolio-text"><h6 class="portfolio-text-title"> UX Research</h6>
@@ -122,8 +126,9 @@
           </div>
         </div>
       </section>
+      <!--
       <footer>
-          <div class="countainer">
+          <div class="container">
             <h5 class="title">Get in Touch</h5>
             <div class="footer-text">
               <ul class="footer-list">
@@ -147,6 +152,5 @@
           </div>
       </footer> -->
   </body>
-  <script src="./index.js">
-  </script>
+  <script src="./index.js"></script>
 </html>
